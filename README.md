@@ -258,6 +258,7 @@ $ git clone https://github.com/RichardPhilipsRoy/Host-Based-SIEM_ELK.git
 
 Copy the auditbeat.xml file into /etc/auditbeat/auditbeat.yml
 * Edit the winlogbeat.xml 
+
 ```
 #----------------------------- Logstash output --------------------------------
 output.logstash:
@@ -275,17 +276,3 @@ $ sudo systemctl start auditbeat.service
 
 
 !!!!HAPPY HUNTING!!!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
