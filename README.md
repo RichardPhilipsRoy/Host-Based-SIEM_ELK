@@ -115,7 +115,7 @@ Extract the zip file
 Powershell
 
 ```
-C:\nssm-2.24\win64\start-process ".\nssm.exe" "install Kibana"
+PS C:\nssm-2.24\win64\start-process ".\nssm.exe" "install Kibana"
 ```
 Set the following values on the Application tab:
 
@@ -208,7 +208,7 @@ Kibana is accessible at https://localhost:5601
 
 Download Sysmon
 
-Download sysmon(https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)page.
+Download sysmon(https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) page.
 
 * Extract the zip file 
 * git clone https://github.com/RichardPhilipsRoy/Host-Based-SIEM_ELK.git
