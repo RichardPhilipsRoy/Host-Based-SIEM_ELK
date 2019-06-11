@@ -265,6 +265,9 @@ output.logstash:
    hosts: ["ELKSERVERIP:5044"] 
 ```
 
+Start auditbeat
+
+```
 $ sudo /bin/systemctl daemon-reload
 $ sudo /bin/systemctl enable auditbeat.service
 $ sudo systemctl start auditbeat.service
