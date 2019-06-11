@@ -252,7 +252,7 @@ Download and install auditbeat
 $ curl -L -O https://artifacts.elastic.co/downloads/beats/auditbeat/auditbeat-6.0.1-amd64.deb
 $ sudo dpkg -i auditbeat-6.0.1-amd64.deb 
 ```
-
+```
 $ git clone https://github.com/RichardPhilipsRoy/Host-Based-SIEM_ELK.git
 ```
 
