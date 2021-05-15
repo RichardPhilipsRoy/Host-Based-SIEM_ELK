@@ -1,0 +1,8 @@
+rule string_detect
+{
+    strings:
+        $text_string = "cmd.exe /c \"%s\""
+
+    condition:
+        $text_string
+}
